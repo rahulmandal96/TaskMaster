@@ -14,8 +14,3 @@ TaskMaster is a web application designed to help you manage your daily schedule,
 
 • JavaScript: Functionality for adding, editing, and deleting tasks, assignments, and notes, theme switching.
 
-# Project Structure
-TaskMaster/
-├── index.html        # Main HTML file
-├── styles.css        # CSS styles   
-└── app.js            # JavaScript functionality
