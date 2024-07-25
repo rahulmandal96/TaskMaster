@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #007bff;
+    color: white;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+#themeToggle {
+    background: none;
+    border: 1px solid white;
+    padding: 0.5rem 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+form {
+    margin-bottom: 1rem;
+}
+
+input[type="text"], input[type="date"], input[type="time"] {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: left;
+}
+
+td button {
+    background-color: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+}
+
+td button:hover {
+    background-color: darkred;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background-color: red;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+}
+
+li button:hover {
+    background-color: darkred;
+}
+
+.editButton {
+    background-color: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+}
+
+.editButton:hover {
+    background-color: darkorange;
+}

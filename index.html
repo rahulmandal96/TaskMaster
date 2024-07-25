@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskMaster</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>TaskMaster</h1>
+        <button id="themeToggle">Switch Theme</button>
+    </header>
+    <main>
+        <section id="schedule">
+            <h2>Daily Schedule Tracker</h2>
+            <form id="scheduleForm">
+                <input type="text" id="scheduleInput" placeholder="Add a new task">
+                <input type="date" id="dateInput">
+                <input type="time" id="timeInput">
+                <button type="submit">Add</button>
+            </form>
+            <table id="scheduleTable">
+                <thead>
+                    <tr>
+                        <th>Task</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="scheduleList"></tbody>
+            </table>
+        </section>
+        <section id="assignments">
+            <h2>Assignment Tracker</h2>
+            <form id="assignmentForm">
+                <input type="text" id="assignmentInput" placeholder="Add a new assignment">
+                <input type="date" id="dueDateInput">
+                <button type="submit">Add</button>
+            </form>
+            <ul id="assignmentList"></ul>
+        </section>
+        <section id="notes">
+            <h2>Notes</h2>
+            <form id="notesForm">
+                <input type="text" id="notesInput" placeholder="Add a new note">
+                <button type="submit">Add</button>
+            </form>
+            <ul id="notesList"></ul>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
