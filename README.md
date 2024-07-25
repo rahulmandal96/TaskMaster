@@ -9,7 +9,9 @@ TaskMaster is a web application designed to help you manage your daily schedule,
 
 # Technologies Used
 • HTML: Structure of the web pages.
+
 • CSS: Styling and layout of the pages.
+
 • JavaScript: Functionality for adding, editing, and deleting tasks, assignments, and notes, theme switching.
 
 # Project Structure
